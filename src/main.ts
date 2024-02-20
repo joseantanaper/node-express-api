@@ -2,7 +2,6 @@ import express, { Express, NextFunction, Request, Response } from 'express'
 import cors from 'cors'
 import todoRouter from './routes/todoRouter'
 import dotenv from 'dotenv'
-const path = require('path')
 
 dotenv.config()
 
